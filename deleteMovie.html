@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="src/c/initialize.js"></script>
+  <script src="src/m/movie.js"></script>
+  <script src="src/v/deleteMovie.js"></script>
+  <title>Movie Record Details</title>
+  <script>
+    window.addEventListener('load',ml.v.deleteMovie.setupUserInterface);
+  </script>
+</head>
+<body>
+  <h1>Delete a Movie</h1>
+  <p>Delete a Movie from the given list below</p>
+ <form action="#" name="deleted">
+   <label for="">
+     Select Movie
+     <select name="selected">
+       <option value="">---</option>
+     </select>
+     <button type="submit">Delete</button>
+   </label>
+ </form>
+<a href="index.html">Back to main menu</a>
+
+</body>
+</html>

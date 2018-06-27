@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="src/c/initialize.js"></script>
+  <script src="src/m/movie.js"></script>
+  <script src="src/v/updateMovie.js"></script>
+  <title>Movie Record Details</title>
+  <script>
+    window.addEventListener('load',ml.v.updatetMovie.setupUserInterface);
+  </script>
+</head>
+<body>
+  <h1>Update a Movie Record</h1>
+  <p>All list of Movies as contained in the database</p>
+  <form action="#" name="updated">
+    <label for="#">
+      Update a Movie Record
+      <select name="selected" id="">
+        <option value="">---</option>
+      </select>
+      <div><label>ID: <output name="id" /></label></div>
+      <div><label>Title: <input name="title" /></label></div>
+      <div><label>Date: <input name="date" /></label></div>
+      <div><button type="submit">Save Changes</button></div>
+  </form>
+<a href="index.html">Back to main menu</a>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Movie Manager</title>
+  <script src="src/c/initialize.js"></script>
+  <script src="src/m/movie.js"></script>
+</head>
+<body>
+  <h1>Movie Manager</h1>
+  <h2>An example of a minimal Javascript Front-End Application</h2>
+  <p>this app supports the following operation</p>
+  <menu>
+    <li><a href="retreiveAndListAllMovies.html"><button>List All Movies</button></a></li>
+    <li><a href="createMovie.html"><button>Add a new Movie</button></a></li>
+    <li><a href="updateMovie.html"><button>Update a Movie</button></a></li>
+    <li><a href="deleteMovie.html"><button>Delete a Movie</button></a></li>
+    <li><button onclick = 'Movie.clearData()'>Clear database</button></li>
+    <li><button onclick = 'Movie.createTestData()'>Create Test data</button></li>
+  </menu>
+</body>
+</html>

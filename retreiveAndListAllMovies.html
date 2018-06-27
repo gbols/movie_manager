@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="src/c/initialize.js"></script>
+  <script src="src/m/movie.js"></script>
+  <script src="src/v/retreiveAndListMovie.js"></script>
+  <title>Movie Record Details</title>
+  <script>
+    window.addEventListener('load',ml.v.retreiveAndListMovie.setupUserInterface);
+  </script>
+</head>
+<body>
+  <h1>Movies Details</h1>
+  <p>All list of Movies as contained in the database</p>
+  <table id = 'movies'>
+   <thead>
+      <tr>
+          <th>Movie Id</th>
+          <th>Title</th>
+          <th>Release Date</th>
+        </tr>
+   </thead>
+    <tbody>
+      
+    </tbody>
+  </table>
+<a href="index.html">Back to main menu</a>
+
+</body>
+</html>

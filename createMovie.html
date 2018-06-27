@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="src/c/initialize.js"></script>
+  <script src="src/m/movie.js"></script>
+  <script src="src/v/createMovie.js"></script>
+  <title>Create a Movie Record</title>
+  <script>
+    window.addEventListener('load',ml.v.createMovie.setupUserInterface);
+  </script>
+</head>
+<body>
+  <form action="#" name="newMovie">
+  <label for="">Movie Id<input type="text" name="movieId"></label>
+  <label for="">Movie Title<input type="text" name="title"></label>
+  <label for="">Movie Id<input type="date" name="myDate"></label>
+  <input type="submit" value="Submit">
+</form>
+<a href="index.html">Back to main menu</a>
+
+</body>
+</html>
